@@ -1,0 +1,50 @@
+{
+  "Mercury": {
+    "type": "Terrestrial",
+    "distance_from_sun_km": 57900000,
+    "moons": 0,
+    "description": "The smallest and innermost planet in the Solar System. It has a very thin atmosphere and extreme temperature variations."
+  },
+  "Venus": {
+    "type": "Terrestrial",
+    "distance_from_sun_km": 108200000,
+    "moons": 0,
+    "description": "Similar in size to Earth, Venus has a thick atmosphere that traps heat, making it the hottest planet in our solar system."
+  },
+  "Earth": {
+    "type": "Terrestrial",
+    "distance_from_sun_km": 149600000,
+    "moons": 1,
+    "description": "Our home planet, the only known place with life. It has a breathable atmosphere and liquid water."
+  },
+  "Mars": {
+    "type": "Terrestrial",
+    "distance_from_sun_km": 227900000,
+    "moons": 2,
+    "description": "Known as the Red Planet due to iron oxide on its surface. It's a candidate for future human settlement."
+  },
+  "Jupiter": {
+    "type": "Gas Giant",
+    "distance_from_sun_km": 778600000,
+    "moons": 79,
+    "description": "The largest planet in the solar system with a massive magnetic field and the famous Great Red Spot."
+  },
+  "Saturn": {
+    "type": "Gas Giant",
+    "distance_from_sun_km": 1433500000,
+    "moons": 82,
+    "description": "Known for its beautiful ring system, Saturn is a gas giant with dozens of moons."
+  },
+  "Uranus": {
+    "type": "Ice Giant",
+    "distance_from_sun_km": 2872500000,
+    "moons": 27,
+    "description": "An icy giant that rotates on its side. It has faint rings and a bluish color due to methane."
+  },
+  "Neptune": {
+    "type": "Ice Giant",
+    "distance_from_sun_km": 4495100000,
+    "moons": 14,
+    "description": "A distant, dark, and cold planet with strong winds and storms. It's the farthest known planet in our solar system."
+  }
+}

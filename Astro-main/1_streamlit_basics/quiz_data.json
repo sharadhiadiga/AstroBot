@@ -1,0 +1,27 @@
+[
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Jupiter"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the largest planet in our Solar System?",
+    "options": ["Earth", "Saturn", "Jupiter", "Uranus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "Which galaxy do we live in?",
+    "options": ["Andromeda", "Whirlpool", "Milky Way", "Sombrero"],
+    "answer": "Milky Way"
+  },
+  {
+    "question": "What does NASA stand for?",
+    "options": [
+      "National Aeronautics and Space Administration",
+      "National Astronomy and Space Association",
+      "North American Space Agency",
+      "New Aeronautics and Space Association"
+    ],
+    "answer": "National Aeronautics and Space Administration"
+  }
+]
