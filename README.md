@@ -1,71 +1,76 @@
-🌌 AstroBot – Your Cosmic Space Companion 🚀
+# 🌌 AstroBot – Your Cosmic Space Companion 🚀  
 
-AstroBot is an interactive Streamlit-based space exploration app that brings together:
+AstroBot is an **interactive Streamlit-based space exploration app** that brings together:  
+- Fun chatbots 🤖  
+- NASA Astronomy Picture of the Day integration 📸  
+- Space facts & history 📅  
+- Planet data 🌍🪐  
+- Interactive quizzes 🧠  
 
-Fun chatbots 🤖
+---
 
-NASA Astronomy Picture of the Day integration 📸
+## 📂 Project Structure  
 
-Space facts & history 📅
-
-Planet data 🌍🪐
-
-Interactive quizzes 🧠
-
-📂 Project Structure
 📦 AstroBot
-├── 1_streamlit_app.py     # Sample calculator demo (Streamlit basics)
-├── astrobot.py            # Main interactive AstroBot app
-├── echo_bot.py            # Lightweight chat-based bot
-├── quiz.py                # Space trivia quiz app
-├── planet_data.json       # Planet facts & descriptions
-├── quiz_data.json         # Quiz dataset (questions + answers)
+├── 1_streamlit_app.py # Sample calculator demo (Streamlit basics)
+├── astrobot.py # Main interactive AstroBot app
+├── echo_bot.py # Lightweight chat-based bot
+├── quiz.py # Space trivia quiz app
+├── planet_data.json # Planet facts & descriptions
+├── quiz_data.json # Quiz dataset (questions + answers)
 
-✨ Features
+---
 
-AstroBot Chat – Ask about planets, black holes, Sun, or NASA facts.
+## ✨ Features  
 
-NASA APOD – Fetch Astronomy Picture of the Day via NASA API.
+- **AstroBot Chat** – Ask about planets, black holes, Sun, or NASA facts.  
+- **NASA APOD** – Fetch Astronomy Picture of the Day via NASA API.  
+- **Space History** – See what happened on today’s date in space.  
+- **Solar System Explorer** – Learn about each planet in detail.  
+- **Quizzes** – Test your space knowledge with interactive quizzes.  
+- **Streamlit UI** – Styled with custom CSS for a cosmic feel.  
 
-Space History – See what happened on today’s date in space.
+---
 
-Solar System Explorer – Learn about each planet in detail.
+## 🚀 Installation & Setup  
 
-Quizzes – Test your space knowledge with interactive quizzes.
-
-Streamlit UI – Styled with custom CSS for a cosmic feel.
-
-🚀 Installation & Setup
-1. Clone the repository
+### 1. Clone the repository  
+```bash
 git clone https://github.com/your-username/AstroBot.git
 cd AstroBot
 
-2. Create & activate virtual environment (recommended)
+```
+### 2. Create & activate virtual environment (recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
+```
 
 3. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 
 (If requirements.txt is missing, install manually:)
-
+```bash
 pip install streamlit requests
+
+```
 
 4. Run the app
 
 Choose one of the Streamlit apps:
-
+```bash
 streamlit run astrobot.py
 
-
+```
 Other apps you can try:
-
+```bash
 streamlit run echo_bot.py
 streamlit run quiz.py
 streamlit run 1_streamlit_app.py
-
+```
 🔑 API Key Setup (Optional for NASA Features)
 
 The app uses NASA’s Astronomy Picture of the Day (APOD) API.
