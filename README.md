@@ -12,12 +12,12 @@ AstroBot is an **interactive Streamlit-based space exploration app** that brings
 ## 📂 Project Structure  
 
 📦 AstroBot
-├── 1_streamlit_app.py # Sample calculator demo (Streamlit basics)
-├── astrobot.py # Main interactive AstroBot app
-├── echo_bot.py # Lightweight chat-based bot
-├── quiz.py # Space trivia quiz app
-├── planet_data.json # Planet facts & descriptions
-├── quiz_data.json # Quiz dataset (questions + answers)
+├── 1_streamlit_app.py 
+├── astrobot.py 
+├── echo_bot.py
+├── quiz.py 
+├── planet_data.json 
+├── quiz_data.json
 
 ---
 
